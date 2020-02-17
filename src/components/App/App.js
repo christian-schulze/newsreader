@@ -10,6 +10,8 @@ const Container = styled.div`
 
 const Header = styled.header`
   text-align: center;
+  font-weight: bolder;
+  padding-top: 16px;
 `;
 
 const Main = styled.main``;
