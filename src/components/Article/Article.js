@@ -22,7 +22,7 @@ const StyledSummary = styled.div``;
 
 function Article({ article }) {
   return (
-    <Container>
+    <Container data-testid="article">
       <StyledHeadline>
         <StyledHeadlineLink href={article.url} target="_blank">
           {article.title}

@@ -10,7 +10,7 @@ function SourceFilter({ sources, onChange }) {
   return (
     <FilterContainer>
       Filter by source:{" "}
-      <select onChange={onChange}>
+      <select data-testid="sourceFilter" onChange={onChange}>
         <option value="">select source to filter by...</option>
         {sources.map(source => {
           return (
