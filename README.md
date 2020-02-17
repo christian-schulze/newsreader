@@ -1,6 +1,6 @@
 NewsReader
 
-## Pre-requisits
+## Prerequisites
 
 - [NodeJs](https://nodejs.org/en/download/) >= 10.\*
 - [Yarn](https://classic.yarnpkg.com/en/docs/install)
