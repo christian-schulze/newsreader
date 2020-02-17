@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import React from "react";
 import { Article } from "../Article/Article";
 
@@ -10,5 +11,13 @@ function Articles({ articles }) {
     </div>
   );
 }
+
+Articles.propTypes = {
+  articles: PropTypes.arrayOf(
+    PropTypes.objectOf({
+      title: PropTypes.string
+    })
+  )
+};
 
 export { Articles };
